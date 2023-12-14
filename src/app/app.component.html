@@ -1,4 +1,25 @@
 <div class="container">
-  <bold-reportdesigner id="designer" serviceUrl="https://demos.boldreports.com/services/api/ReportingAPI">
-  </bold-reportdesigner>
+  <!-- Designer - Demo -->
+  <!--<bold-reportdesigner id="designer" [serviceUrl]="serviceUrl">
+  </bold-reportdesigner>-->
+
+  <!-- Designer - Cloud -->
+  <!-- <bold-reportdesigner
+    id="reportDesigner_Control"
+    [serviceUrl]="serviceUrl"
+    [reportServerUrl]="reportServerUrl"
+    [serviceAuthorizationToken]="serverServiceAuthorizationToken"
+  >
+  </bold-reportdesigner> -->
+
+  <!-- Viewer - Cloud -->
+  <bold-reportviewer
+      id="reportViewer_Control"
+      [reportServiceUrl]="reportServiceUrl"
+      [reportServerUrl]="reportServerUrl"
+      [serviceAuthorizationToken]="serverServiceAuthorizationToken"
+      [reportPath]="reportPath"
+      style="width: 100%; height: 950px"
+    >
+    </bold-reportviewer>
 </div>

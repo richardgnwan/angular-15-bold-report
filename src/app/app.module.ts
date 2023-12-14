@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { BoldReportDesignerModule } from '@boldreports/angular-reporting-components';
+import { BoldReportDesignerModule, BoldReportViewerModule } from '@boldreports/angular-reporting-components';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -34,6 +34,7 @@ window[codemirror] = CodeMirror;
   ],
   imports: [
     BoldReportDesignerModule,
+    BoldReportViewerModule,
     BrowserModule,
     AppRoutingModule
   ],
