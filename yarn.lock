@@ -1224,33 +1224,33 @@
     "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
-"@boldreports/angular-reporting-components@^5.3.14":
-  version "5.3.14"
-  resolved "https://registry.yarnpkg.com/@boldreports/angular-reporting-components/-/angular-reporting-components-5.3.14.tgz#4b5ba7699ba6ee486fd1eea72a249bd0c9d34a13"
-  integrity sha512-QoqEoqjW9eG+zaqAOWtBcymaIH99OceaoQ9R5ZX/yXnpCsla+/KempxxAnU4yeyLb6oNCr1o4mg8PsKNQgylPg==
+"@boldreports/angular-reporting-components@~5.3.15":
+  version "5.3.15"
+  resolved "https://registry.yarnpkg.com/@boldreports/angular-reporting-components/-/angular-reporting-components-5.3.15.tgz#6b9c55140e5efd0611b660a3d1bb9854c66e4c1f"
+  integrity sha512-WhdclPsF0ZvJl02n9WL1y7Nx+G8msogwnFnxYCCMWdCW495u8lbM0yNIQ39RRSfk6Vb+f8iTSAcgxdGZeUSCEw==
   dependencies:
-    "@boldreports/javascript-reporting-controls" "5.3.14"
+    "@boldreports/javascript-reporting-controls" "5.3.15"
     tslib "^2.3.0"
 
-"@boldreports/global@5.3.14":
-  version "5.3.14"
-  resolved "https://registry.yarnpkg.com/@boldreports/global/-/global-5.3.14.tgz#b59bffcc9fc78defe3fc201d9c0174b45436765d"
-  integrity sha512-GkdOPwxy8cDa/mVHW1qGX3KZJ4ydizZwa2SuxpFgW/Twh8aeKKCDMoZRrojEh+2Km48ZmcguyefLz2Wojyqmsw==
+"@boldreports/global@5.3.15":
+  version "5.3.15"
+  resolved "https://registry.yarnpkg.com/@boldreports/global/-/global-5.3.15.tgz#cf283c7921e47349292caaac36efacfcfa0cea79"
+  integrity sha512-mSfrsux7Xqir/K8v+VVQYXqWtgOJWMKg8e2i2IRtwKPJrKP2b+tD71+XIPCybrjmpIUNDGRDFJ3vNrDypC2KNA==
 
-"@boldreports/javascript-reporting-controls@5.3.14":
-  version "5.3.14"
-  resolved "https://registry.yarnpkg.com/@boldreports/javascript-reporting-controls/-/javascript-reporting-controls-5.3.14.tgz#6cb774b67662a2e09b77f1d4c4cbaa24f75b2d4e"
-  integrity sha512-VBdBEtzAlUQCAua1vVkV11WwuJ1Cz6902GkSZy7i7xrd2M/jsN9iZVHQXpo16UQZrGPiTq0Dd9zCd7TgT1B8zw==
+"@boldreports/javascript-reporting-controls@5.3.15":
+  version "5.3.15"
+  resolved "https://registry.yarnpkg.com/@boldreports/javascript-reporting-controls/-/javascript-reporting-controls-5.3.15.tgz#5098670c3703e41c70a66b92c21529eb6dab3f7b"
+  integrity sha512-K/AvSCafQFChXyZHEgNKzH/5pyZUs7YRN4HuPTWFNWO2zBFFR+qRPRkaChxI40QsUyUCJ6kbg9nyHvE69ys4wg==
   dependencies:
-    "@boldreports/global" "5.3.14"
+    "@boldreports/global" "5.3.15"
     jquery "*"
     jquery-validation "1.19.5"
     jsrender "*"
 
-"@boldreports/types@^5.3.14":
-  version "5.3.14"
-  resolved "https://registry.yarnpkg.com/@boldreports/types/-/types-5.3.14.tgz#f6f42eb1d25589e5e6e8c24824a9b3c1aa9502f4"
-  integrity sha512-M5kHVdaRdhv1yTiHGmWtNX8IZCCT+jLqOjZxtuUpWjISPSvEjO2yCBypKfiXEhhUJQ9qAodHbgRlpDMJXd9cfA==
+"@boldreports/types@~5.3.15":
+  version "5.3.15"
+  resolved "https://registry.yarnpkg.com/@boldreports/types/-/types-5.3.15.tgz#ec72a77678cdef18c93455f7378658aa7bce4216"
+  integrity sha512-pPBhCqtn7ou+8ujZfAbRRZY5Onp1xpx5yewAf3xaW7Q3/HYnALpKzQdbxpUOxbaEVobwbHQYwxAa7ety2V4aAg==
   dependencies:
     "@types/jquery" "*"
 
