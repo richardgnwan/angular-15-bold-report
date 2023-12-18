@@ -24,10 +24,10 @@ export class AppComponent {
   // serverServiceAuthorizationToken: string = this.TOKEN;
 
   /* ReportViewer Integration */
-  reportServerUrl: string = this.SERVER_URL + '/reporting/api/';
-  reportServiceUrl: string = 'https://service.boldreports.com/api/Viewer';
-  serverServiceAuthorizationToken: string = this.TOKEN;
-  reportPath: string = '/Sample Reports/Sales Order Detail';
+  // reportServerUrl: string = this.SERVER_URL + '/reporting/api/';
+  // reportServiceUrl: string = 'https://service.boldreports.com/api/Viewer';
+  // serverServiceAuthorizationToken: string = this.TOKEN;
+  // reportPath: string = '/Sample Reports/Sales Order Detail';
 
   /* INTEGRATIONS */
   /**
